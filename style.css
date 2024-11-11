@@ -6,6 +6,7 @@
 
  body {
     font-family: "Ubuntu", sans-serif;
+    overscroll-behavior-y: none;
  }
 
  html {
