@@ -384,8 +384,8 @@ article .icon {
   
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 250px;
+    height: 250px;
 }
   
 .project-title {
@@ -463,5 +463,23 @@ footer {
 }
  
 footer p {
+   text-align: center;
+}
+
+.project-containers {
+   max-width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.project-details-container {
+   margin: 1rem;
+   padding: 1.5rem;
+   background: white;
+   border-radius: 2rem;
+   border: rgb(53, 53, 53) 0.1rem solid;
+   border-color: #353535;
    text-align: center;
 }
